@@ -56,7 +56,7 @@ export const Items = () => {
             <span className='text-sm'>{item.fees}</span>
             <span className='text-sm text-[#F71963d2]'>{item.shipping}</span>
           </div>
-          <button className='h-12 w-32 mt-3 bg-[#F71963] text-white font-semibold rounded-md'>Comprar</button>
+          <button className=' cursor-pointer hover:bg-[#C6144F]  hover:scale-95 duration-150 h-12 w-32 mt-3 bg-[#F71963] text-white font-semibold rounded-md'>Comprar</button>
         </div>
       ))}
     </div>

@@ -23,7 +23,7 @@ export const Categories = () => {
     <div className='flex flex-row flex-wrap items-center justify-center gap-16 mt-8'>
       {categories.map((category, index) => (
         <div key={index} className='flex flex-col items-center  rounded'>
-          <div className={`rounded-xl hover:bg-[#1f1e1e15] duration-300 transform hover:-translate-y-2 bg-${category.color} p-7 mb-2`}>
+          <div className={`rounded-xl hover:bg-[#1f1e1e15] duration-300 transform hover:-translate-y-2 text-${category.color} p-7 mb-2`}>
             <img onClick={() => setActive(active)} className='hover:scale-105 duration-150 h-11' src={category.img} alt={category.text} />
           </div>
           <p style={{ color: category.color }}>{category.text}</p>
