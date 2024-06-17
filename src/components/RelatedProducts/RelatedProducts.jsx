@@ -4,15 +4,11 @@ import { Products } from "./Products";
 export const RelatedProducts = () => {
   return (
     <>
-      <div className="flex justify-center items-center mt-7 group">
-        <div className="flex items-center w-full max-w-4xl">
-          <div className="relative flex-grow">
-            <div className="border-t  border-[#F71963] transform transition-transform duration-300 ease-out origin-left group-hover:scale-x-100 scale-x-0"></div>
-          </div>
-          <h1 className="mx-4 text-[#F71963] text-[30px] font-bold">Produtos relacionados</h1>
-          <div className="relative flex-grow">
-            <div className="border-t  border-[#F71963] transform transition-transform duration-300 ease-out origin-right group-hover:scale-x-100 scale-x-0"></div>
-          </div>
+      <div className="flex justify-center mt-20">
+        <div className="group relative inline-block">
+          <h1 className="text-[#F71963] text-[30px] font-bold">Navegue por Marcas</h1>
+          <div className="absolute left-0 bottom-0 w-1/2 h-0.5 bg-[#F71963] transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-out origin-left"></div>
+          <div className="absolute right-0 bottom-0 w-1/2 h-0.5 bg-[#F71963] transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-out origin-right"></div>
         </div>
       </div>
       <Products />

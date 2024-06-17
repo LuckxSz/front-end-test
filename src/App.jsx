@@ -1,6 +1,7 @@
 
 import { Brands } from './components/Brands/Brands'
 import { Categories } from './components/Categories/Categories'
+import { Footer } from './components/Footer/Footer'
 import { Main } from './components/Header/Main'
 import { Partners } from './components/Partners/Partners'
 import { MainPromo } from './components/PromoTemplate/MainPromo'
@@ -14,5 +15,6 @@ export const App = () => {
       <RelatedProducts />
       <Partners />
       <Brands />
+      <Footer />
     </div>)
 }

@@ -7,7 +7,7 @@ export const RelatedProducts = () => {
         </div>
         <div className="justify-center flex-col flex items-center">
           <h1 className=" mt-5 flex  text-[#F71963] text-[30px] font-bold">Produtos relacionados</h1>
-          <span className="font-bold text-[#3F3F40]">Ver todos</span>
+          <span className="font-bold text-[]">Ver todos</span>
 
         </div>
         <div className="relative flex-grow">
