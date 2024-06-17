@@ -1,4 +1,5 @@
 
+import { Brands } from './components/Brands/Brands'
 import { Categories } from './components/Categories/Categories'
 import { Main } from './components/Header/Main'
 import { Partners } from './components/Partners/Partners'
@@ -12,5 +13,6 @@ export const App = () => {
       <Categories />
       <RelatedProducts />
       <Partners />
+      <Brands />
     </div>)
 }
