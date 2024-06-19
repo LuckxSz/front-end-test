@@ -9,11 +9,10 @@ export const Header = () => {
     <div className='border-y-2 mt-2 border-y-gray-200 py-4'>
       <div className='max-w-7xl mx-auto flex items-center gap-8 justify-center'>
         <div className='mr-16'>
-          {/* logo */}
+
           <img src={logo} alt="logo" />
         </div>
         <div className='flex relative'>
-          {/* input + magnifying */}
           <input
             type="text"
             placeholder='O que você está buscando?'
