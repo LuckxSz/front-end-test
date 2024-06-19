@@ -44,9 +44,6 @@ export const Items = () => {
       shipping: "Frete grátis",
     }
   ]
-
-
-
   return (
     <>
       <div className='flex flex-wrap justify-evenly mt-4'>
